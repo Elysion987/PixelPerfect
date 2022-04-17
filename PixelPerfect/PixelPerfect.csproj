@@ -7,7 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Reference Include="Dalamud, Version=6.4.0.4, Culture=neutral, PublicKeyToken=null">
+      <Reference Include="Dalamud, Culture=neutral, PublicKeyToken=null">
         <HintPath>$(AppData)\XIVLauncher\addon\Hooks\dev\Dalamud.dll</HintPath>
       </Reference>
       <Reference Include="ImGui.NET, Version=1.82.0.0, Culture=neutral, PublicKeyToken=null">
