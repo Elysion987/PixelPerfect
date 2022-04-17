@@ -67,7 +67,7 @@ namespace PixelPerfect
             _col2 = _configuration.Col2;
             pluginInterface.UiBuilder.Draw += DrawWindow;
             pluginInterface.UiBuilder.OpenConfigUi += ConfigWindow;
-            commandManager.AddHandler("/pp", new CommandInfo(Command)
+            commandManager.AddHandler("/pp61", new CommandInfo(Command)
             {
                 HelpMessage = "Pixel Perfect config."
             });
@@ -83,7 +83,7 @@ namespace PixelPerfect
         {
             _pi.UiBuilder.Draw -= DrawWindow;
             _pi.UiBuilder.OpenConfigUi -= ConfigWindow;
-            _cm.RemoveHandler("/pp");
+            _cm.RemoveHandler("/pp61");
         }
 
 
