@@ -1,6 +1,7 @@
 .gitattributes
 .vs/
-bin/
+PixelPerfect/bin/Debug/net6.0/*
+!PixelPerfect/bin/Debug/net6.0/PixelPerfect.dll
 obj/
 .idea/
 PixelPerfect.sln.DotSettings.user
